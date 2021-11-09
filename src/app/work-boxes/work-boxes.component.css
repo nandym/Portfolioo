@@ -12,7 +12,7 @@
     box-shadow: 1px 1px 10px 1px #131416;
   }
   .Container{
-  padding-top: 5%;
+  padding-top: 18%;
   display: grid;
   gap: 7%;
   row-gap: 20%;
@@ -98,7 +98,7 @@
     transition: transform .4s;
   }
   .Container{
-  padding-top: 10%;
+  padding-top: 100%;
   display: grid;
   gap: 7%;
   row-gap: 10%;
