@@ -1,0 +1,135 @@
+@media (orientation: landscape) {
+  .Container{
+
+    align-content: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  h1{
+    text-align: center;
+    color: #F8F9FA;
+
+  }
+  h3{
+    text-align: center;
+    color: #F8F9FA;
+
+  }
+  .List{
+    height: 250px;
+  }
+  ul{
+    padding-top: 30px;
+    position: relative;
+    padding-left: 40%;
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-bottom: 10%;
+  }
+  li{
+    position: relative;
+    color: #F8F9FA;
+    padding-bottom: 30px;
+    font-size: medium;
+
+  }
+  li:hover{
+
+    font-size: large;
+    cursor:pointer;
+  }
+  p{
+    color: #F8F9FA;
+    text-align: center;
+    font-size: small;
+    justify-content: left;
+
+  }
+  img{
+    position:relative;
+    height: auto;
+    width: 100%;
+  }
+  h6{
+    color: #F8F9FA;
+    text-align: right;
+    font-size: xx-small;
+  }
+
+  }
+
+  @media (orientation: portrait) {
+    .Container{
+
+      align-content: center;
+      padding-bottom: 10%;
+
+    }
+    h1{
+      text-align: center;
+      color: #F8F9FA;
+      font-size: large;
+
+    }
+    h3{
+      text-align: center;
+      color: #F8F9FA;
+
+    }
+    ul{
+      padding-top: 30px;
+      position: relative;
+
+      list-style-position: inside;
+      list-style-type: decimal;
+    }
+    li{
+      position: relative;
+      color: #F8F9FA;
+      padding-bottom: 30px;
+      font-size: medium;
+    }
+
+  li:hover{
+    font-size: large;
+    cursor:pointer;
+  }
+    p{
+      color: #F8F9FA;
+      text-align: center;
+      font-size: small;
+      justify-content: left;
+    }
+    img{
+      position:inherit;
+      height: auto;
+      width: 100%;
+    }
+    h6{
+      color: #F8F9FA;
+      text-align: right;
+      font-size: xx-small;
+    }
+    }
+
+    html{
+
+      scroll-behavior: smooth;
+    }
+    .ArrowUp{
+      padding-top: 180px;
+      margin: 0 auto;
+      height: 60px;
+      width: 60px;
+      filter: invert(100%);
+
+      }
+      .ArrowUp:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        filter: invert(90%);
+        }

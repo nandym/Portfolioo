@@ -1,0 +1,33 @@
+.Menu{
+
+color: #ffffff;
+margin:0;
+
+}
+p{
+
+  margin:0;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline dashed 2px;
+  padding-bottom: 35px;
+  text-underline-offset: 10px;
+  letter-spacing: 4px;
+  font-size: xxx-large;
+  transition: transform .1s;
+
+}
+html{
+  margin: auto;
+}
+body{
+  margin: 0%;
+  padding:0%;
+  border: 0%;
+}
+p:hover{
+  transform: scale(1.05);
+  color:rgb(245, 245, 245);
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<div class="Container">
+
+  <div *ngFor="let works of works" class="Box" [routerLink]="works.goto" >
+    <h3 class="title">{{ works.name }}</h3>
+    <img src='{{ works.image }}' class="images">
+    <!-- <p class="description">{{ works.description }}</p>-->
+    <p class="tags">{{ works.tags }}</p>
+  </div>
+  <div class="Bottom"></div>
+</div>
+
+
+
+
+
+

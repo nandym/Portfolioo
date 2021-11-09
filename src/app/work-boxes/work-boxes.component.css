@@ -1,0 +1,168 @@
+@media (orientation: landscape) {
+  .Box{
+    background-color: #343A40;
+    border-radius: 1vh;
+    border-top-left-radius: 0.5vh;
+    border-top-right-radius: 0.5vh;
+    color: #F8F9FA;
+    align-content: center;
+    justify-content: center;
+    transition: transform .4s;
+    position:relative;
+    box-shadow: 1px 1px 10px 1px #131416;
+  }
+  .Container{
+  padding-top: 5%;
+  display: grid;
+  gap: 7%;
+  row-gap: 20%;
+  column-gap: 15%;
+  grid-template-columns: 30vw 30vw ;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 50%;
+  }
+  .title{
+
+    text-align: center;
+    text-justify: auto;
+    /*
+    text-decoration: underline;
+    text-underline-offset: 2px;
+*/
+
+  }
+  .description{
+    /*text-indent: 2%;
+    */
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    text-align: center;
+    text-justify: auto;
+    padding-bottom: 40px;
+
+  }
+  .images{
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+
+    justify-content: center;
+    align-content: center;
+  }
+
+  .Box:hover{
+
+    cursor: pointer;
+    background-color: #495057;
+    transform: scale(1.03);
+
+
+
+  }
+  .tags{
+
+    position: relative;
+    display: inherit;
+    padding-top: 30px;
+    color: #F8F9FA;
+    font-size: 8.5px;
+    text-align: right;
+    padding-right: 5%;
+    justify-content: left;
+    vertical-align: bottom;
+    right:0px;
+    bottom:0px;
+
+
+  }
+  .Bottom{
+
+  padding-bottom: 50px;
+
+
+  }
+
+}
+
+@media screen and (orientation:portrait) {
+  .Box{
+    background-color: #343A40;
+    border-radius: 1vh;
+    border-top-left-radius: 0.5vh;
+    border-top-right-radius: 0.5vh;
+    color: #F8F9FA;
+    align-content: center;
+    justify-content: center;
+    transition: transform .4s;
+  }
+  .Container{
+  padding-top: 10%;
+  display: grid;
+  gap: 7%;
+  row-gap: 10%;
+  column-gap: 10%;
+  grid-template-columns: 60vw;
+  justify-content: center;
+  align-content: center;
+
+  }
+  .title{
+    font-size: small;
+    text-align: center;
+    text-justify: auto;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+
+  }
+  .description{
+    /*text-indent: 2%;
+    */
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: xx-small;
+    text-align: justify;
+    text-justify: auto;
+
+  }
+  .images{
+
+    max-width: 100%;
+    max-height: auto;
+
+    justify-content: center;
+    align-content: center;
+  }
+
+  .Box:hover{
+
+    cursor: pointer;
+    background-color: #495057;
+    transform: scale(1.03);
+
+
+
+  }
+  .tags{
+
+    display: inherit;
+    padding-top: 12px;
+    color: #F8F9FA;
+    font-size: 6px;
+    text-align: right;
+    padding-right: 5%;
+    justify-content: left;
+
+
+  }
+  .Bottom{
+
+  padding-bottom: 50px;
+
+
+  }
+
+
+}

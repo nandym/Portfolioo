@@ -1,0 +1,13 @@
+<div class="Menu">
+
+<p routerLink="" id="TopPage">Portfolio</p>
+
+</div>
+<div class="Boxes">
+</div>
+<main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+
+  <app-made-by></app-made-by>
+  <router-outlet #o="outlet"></router-outlet>
+
+</main>
